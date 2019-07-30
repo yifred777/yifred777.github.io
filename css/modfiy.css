@@ -2,7 +2,7 @@
 	background: #3C3837;
 }
 header.masthead{
-	background: #F5D358;
+	background: #fed955;
 }
 section.success{
 	background: #F5D358;
@@ -46,7 +46,6 @@ hr.star-light:after{
 
 .air_apps{
 	margin-top: 50px;
-	height: 500px;
 }
 .item_app:first-child{
 	border-right: solid 1px #ebebeb;
@@ -54,6 +53,7 @@ hr.star-light:after{
 .air_apps .item_app h3{
 	color: #666;
 	font-weight: 500;
+	margin-top: 50px;
 }
 .air_apps .item_app .logo_img{
 	display: block;
@@ -63,8 +63,8 @@ hr.star-light:after{
 	margin-top: 30px;
 }
 .logo_img img{
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 .list_download{
@@ -80,12 +80,68 @@ hr.star-light:after{
 }
 .list_download li a{
 	display: block;
-	width: 80px;
-	height: 80px;
+	width: 120px;
+	height: 120px;
 	margin: 0 auto;
 	text-align: center;
 }
 .list_download li a img{
 	width: 100%;
-	height: 100%;
+}
+.text_con{
+	font-size: 18px;
+	text-align: center;
+}
+.text_con h4{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.success .text_con{
+	margin-top: 30px;
+}
+.img-fluid{
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+}
+.send_email{
+	text-align: center;
+}
+.send_email a{
+	display: block;
+	text-decoration: none;
+	margin-top: 30px;
+}
+footer h4{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+}
+@media (max-width: 993px) {
+	.item_app:first-child{
+		border: none;
+	}
+	.air_apps .item_app .logo_img{
+		width: 150px;
+		height: 150px;
+	}
+	.list_download{
+		margin-top: 30px;
+	}
+	.text_con{
+		font-size: 16px;
+	}
+	.send_email{
+		font-size: 16px;
+	}
+	.img-fluid{
+		width: 200px;
+		height: 200px;
+	}
+	footer h4{
+		font-size: 15px;
+		line-height: 25px;
+		font-weight: 500;
+	}
 }
